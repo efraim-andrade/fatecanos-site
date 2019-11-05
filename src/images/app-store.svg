@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="app-store" width="32.282" height="32.282" viewBox="0 0 32.282 32.282">
+    <defs>
+        <style>
+            .cls-1{fill:#00c3ff}.cls-2{fill:#00aaf0}.cls-3{fill:#fff}.cls-4{fill:#f2f2f2}
+        </style>
+    </defs>
+    <path id="Caminho_44" d="M25.662 32.282H6.62A6.628 6.628 0 0 1 0 25.662V6.62A6.628 6.628 0 0 1 6.62 0h19.042a6.628 6.628 0 0 1 6.62 6.62v19.042a6.628 6.628 0 0 1-6.62 6.62z" class="cls-1" data-name="Caminho 44"/>
+    <path id="Caminho_45" d="M265.521 0H256v32.282h9.521a6.628 6.628 0 0 0 6.62-6.62V6.62a6.628 6.628 0 0 0-6.62-6.62z" class="cls-2" data-name="Caminho 45" transform="translate(-239.859)"/>
+    <g id="Grupo_4" data-name="Grupo 4" transform="translate(5.391 6.621)">
+        <path id="Caminho_46" d="M113.944 363.113a1.577 1.577 0 0 1-2.153.577 1.578 1.578 0 0 1-.577-2.153l.31-.537h3.64z" class="cls-3" data-name="Caminho 46" transform="translate(-109.395 -344.859)"/>
+        <path id="Caminho_47" d="M87.076 119.887a1.576 1.576 0 0 1 0-3.153h3.1l4.253-7.366-1.153-2a1.578 1.578 0 0 1 .577-2.153 1.578 1.578 0 0 1 2.153.577l.243.42.243-.42a1.576 1.576 0 1 1 2.73 1.576l-5.406 9.363h3.41l1.82 3.153z" class="cls-3" data-name="Caminho 47" transform="translate(-85.5 -105.007)"/>
+    </g>
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(16.141 6.621)">
+        <path id="Caminho_48" d="M275.992 203.423h-1.281l1.038 1.8a1.576 1.576 0 1 1-2.73 1.576l-5.473-9.48 1.82-3.153 3.525 6.106h3.1a1.576 1.576 0 0 1 0 3.153z" class="cls-4" data-name="Caminho 48" transform="translate(-266.818 -188.543)"/>
+        <path id="Caminho_49" d="M256 291v3.153h2.8L256.977 291z" class="cls-4" data-name="Caminho 49" transform="translate(-256 -279.273)"/>
+        <path id="Caminho_50" d="M259.13 106.174a1.576 1.576 0 0 0-2.888-.38l-.243.42v6.305l2.973-5.149a1.566 1.566 0 0 0 .158-1.196z" class="cls-4" data-name="Caminho 50" transform="translate(-256 -105.006)"/>
+    </g>
+</svg>
