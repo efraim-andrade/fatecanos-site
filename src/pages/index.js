@@ -24,7 +24,11 @@ function IndexPage() {
         </Left>
 
         <Right>
-          <p>EU</p>
+          <img
+            alt="Background"
+            title="Background"
+            src={require('../images/background.svg')}
+          />
         </Right>
       </Content>
     </Layout>
@@ -33,9 +37,12 @@ function IndexPage() {
 
 const Content = styled.div`
   display: flex;
+  justify-content: space-between;
 `;
 
 const Left = styled.div`
+  width: 100%;
+
   > h1 {
     font-size: 48px;
     line-height: 1.21;
@@ -60,7 +67,45 @@ const Badges = styled.div`
 `;
 
 const Right = styled.div`
-  background-image: url('../images/background.svg');
+  position: relative;
+
+  width: 100%;
+  height: calc(90vh - 48px);
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+
+    content: '';
+    display: block;
+    border-radius: 50%;
+    background: ${colors.primary};
+    box-shadow: 0 3px 20px 0 rgba(78, 80, 217, 0.84);
+  }
+
+  &:before {
+    left: -10%;
+    z-index: 2;
+
+    width: 400px;
+    height: 400px;
+  }
+
+  &:after {
+    z-index: 1;
+    left: 15%;
+
+    width: 530px;
+    height: 530px;
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    top: 8%;
+  }
 `;
 
 export default IndexPage;
